@@ -1,0 +1,67 @@
+.contacts {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.email {
+    margin-right: 50px;
+}
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+    transition: color var(--transition);
+}
+
+.phone {
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.phone-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--secondary-text-color);
+    transition: color var(--transition);
+}
+
+.mail:hover,
+.mail:focus,
+.phone-number:hover,
+.phone-number:focus {
+    cursor: pointer;
+    color: var(--accent-color);
+}
+
+.mail-icon {
+    margin-right: 10px;
+    order: -1;
+    align-self: center;
+    fill: currentColor;
+}
+
+.phone-icon {
+    margin-right: 10px;
+    order: -1;
+    align-self: center;
+    fill: currentColor;
+}
+
+.email:hover,
+.email:focus,
+.phone:hover,
+.phone:focus,
+.mail-footer:hover,
+.mail-footer:focus,
+.phone-number-footer:hover,
+.phone-number-footer:focus {
+    color: var(--accent-color);
+}

@@ -1,0 +1,36 @@
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.customers-list-link:hover,
+.customers-list-link:hover {
+    border: 1px solid var(--accent-color);
+}
+
+.customers-list-link:hover .customers-list-icon,
+.customers-list-link:focus .customers-list-icon {
+    fill: var(--accent-color);
+}
+
+.customers-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icons-color);
+    border-radius: 4px;
+    transition: border var(--transition);
+}
+
+.customers-list-icon {
+    fill: var(--icons-color);
+    transition: fill var(--transition);
+}
+
+.customers-list-icon:focus,
+.customers-list-icon:hover {
+    fill: var(--accent-color);
+}
