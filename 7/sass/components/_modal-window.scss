@@ -12,6 +12,7 @@
     border-radius: 4px;
 }
 
+
 .modal-close-btn {
     position: absolute;
     top: 8px;
@@ -26,18 +27,23 @@
     border: 1px solid #0000001a;
     padding: 0;
     transition: border-color var(--transition);
+
+    &:hover {
+        border-color: var(--accent-color);
+    }
+
+    &:focus {
+        border-color: var(--accent-color);
+    }
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    border-color: var(--accent-color);
-}
 
 .modal-close-btn-icon {
     transition: fill var(--transition);
+
+    .modal-close-btn:hover &,
+    .modal-close-btn:focus & {
+        fill: var(--accent-color);
+    }
 }
 
-.modal-close-btn:hover .modal-close-btn-icon,
-.modal-close-btn:focus .modal-close-btn-icon {
-    fill: var(--accent-color);
-}

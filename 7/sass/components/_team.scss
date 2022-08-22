@@ -2,10 +2,12 @@
     background: var(--background-color);
 }
 
+
 .team-peoples {
     display: flex;
     text-align: center;
 }
+
 
 .team-member {
     display: block;
@@ -21,6 +23,7 @@
     border-radius: 0px 0px 4px 4px;
 }
 
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -30,6 +33,7 @@
     padding-top: 30px;
     margin-bottom: 10px;
 }
+
 
 .team-position {
     font-weight: 400;

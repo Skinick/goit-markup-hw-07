@@ -4,11 +4,13 @@
     padding-bottom: 60px;
 }
 
+
 .footer-info {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
+
 
 .logo-footer {
     font-family: var(--secondary-font);
@@ -19,32 +21,54 @@
     margin-bottom: 20px;
 }
 
+
 .logo-part-footer {
     color: var(--white-color);
     margin-right: 0;
 }
 
+
 .contacts-footer {
     font-style: normal;
 }
+
 
 .footer-adress {
     margin-bottom: 9px;
 }
 
+
 .post-address {
     color: var(--white-color);
 }
 
+
 .mail-footer {
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--transition);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+    &:focus {
+        color: var(--accent-color);
+    }
 }
+
 
 .phone-number-footer {
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--transition);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+
+    &:focus {
+        color: var(--accent-color);
+    }
 }
+
 
 .invitation {
     font-weight: 700;
@@ -56,11 +80,13 @@
     margin-bottom: 20px;
 }
 
+
 .social-list-footer {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
+
 
 .footer-social-link {
     display: flex;
@@ -74,18 +100,25 @@
     opacity: 0.87;
     background: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition);
+
+    &:hover {
+        background-color: var(--accent-color);
+    }
+
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
-.footer-social-link:hover,
-.footer-social-link:focus {
-    background-color: var(--accent-color);
-}
 
 .footer-social-icon {
     fill: var(--white-color);
-}
+    
+    &:focus {
+        fill: var(--white-color);
+    }
 
-.footer-social-icon:hover,
-.footer-social-icon:focus {
-    fill: var(--white-color);
+    &:hover {
+        fill: var(--white-color);
+    }   
 }

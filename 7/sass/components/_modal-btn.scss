@@ -21,9 +21,12 @@
     padding-left: 32px;
     padding-right: 32px;
     transition: color var(--transition);
-}
 
-.modal-btn:hover,
-.modal-btn:focus {
-    color: #188ce8;
+    &:hover {
+        color: #188ce8;
+    }
+
+    &:focus {
+        color: #188ce8;
+    }
 }
