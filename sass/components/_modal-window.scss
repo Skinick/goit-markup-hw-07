@@ -17,9 +17,7 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     width: 30px;
     height: 30px;
     border-radius: 50%;

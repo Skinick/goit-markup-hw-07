@@ -89,9 +89,7 @@
 
 
 .footer-social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     width: 44px;
     height: 44px;
     border-radius: 50%;

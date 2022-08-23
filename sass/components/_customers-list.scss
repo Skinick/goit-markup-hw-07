@@ -6,9 +6,7 @@
 
 
 .customers-list-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     width: 170px;
     height: 92px;
     border: 1px solid var(--icons-color);

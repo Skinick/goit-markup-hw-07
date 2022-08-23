@@ -93,6 +93,12 @@ a {
   margin: -1px;
 }
 
+.modal-form-chek-desc, .modal-close-btn, .footer-social-link, .customers-list-link, .social-list-link, .futures-element, .hero-title, .phone-number, .mail, .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal-btn {
   font-weight: 700;
   font-size: 16px;
@@ -193,12 +199,6 @@ a {
   color: var(--black-color);
 }
 
-.contacts {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-}
-
 .email {
   margin-right: 50px;
 }
@@ -210,9 +210,6 @@ a {
 }
 
 .mail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 500;
   line-height: 1.71;
   color: var(--secondary-text-color);
@@ -239,9 +236,6 @@ a {
 }
 
 .phone-number {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   color: var(--secondary-text-color);
@@ -284,9 +278,6 @@ a {
 }
 
 .hero-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -310,9 +301,6 @@ a {
 }
 
 .futures-element {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -416,9 +404,6 @@ a {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -449,9 +434,6 @@ a {
 }
 
 .customers-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 170px;
   height: 92px;
   border: 1px solid var(--icons-color);
@@ -556,9 +538,6 @@ a {
 }
 
 .footer-social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -766,9 +745,6 @@ a {
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -881,9 +857,6 @@ a {
 }
 
 .modal-form-chek-desc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);

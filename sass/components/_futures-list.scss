@@ -8,9 +8,7 @@
 }
 
 .futures-element {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %aling;
     height: 120px;
     background: #f5f4fa;
     border-radius: 4px;

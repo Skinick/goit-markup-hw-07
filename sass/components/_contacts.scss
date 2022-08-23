@@ -1,7 +1,5 @@
 .contacts {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
+    @extend %aling;
 }
 
 
@@ -18,9 +16,7 @@
 
 
 .mail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     font-weight: 500;
     line-height: 1.71;
     color: var(--secondary-text-color);
@@ -53,9 +49,7 @@
 
 
 .phone-number {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     font-weight: 500;
     line-height: 1.14;
     color: var(--secondary-text-color);

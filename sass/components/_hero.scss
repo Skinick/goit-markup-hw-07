@@ -13,9 +13,7 @@
 }
 
 .hero-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;

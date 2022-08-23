@@ -102,9 +102,7 @@
 
 
 .modal-form-chek-desc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %aling;
     font-size: 14px;
     line-height: 1.7;
     color: var(--secondary-text-color);
