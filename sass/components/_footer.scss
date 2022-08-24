@@ -50,6 +50,7 @@
     &:hover {
         color: var(--accent-color);
     }
+
     &:focus {
         color: var(--accent-color);
     }
@@ -71,9 +72,7 @@
 
 
 .invitation {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
+    @include font(14px, 700, 16px);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
@@ -111,12 +110,12 @@
 
 .footer-social-icon {
     fill: var(--white-color);
-    
+
     &:focus {
         fill: var(--white-color);
     }
 
     &:hover {
         fill: var(--white-color);
-    }   
+    }
 }
