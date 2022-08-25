@@ -18,7 +18,7 @@
   align-items: center;
 }
 
-.menu-link {
+.menu__link {
   position: relative;
   display: block;
   @include font(14px, 500, 16px);
@@ -35,7 +35,7 @@
   }
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -55,7 +55,7 @@
   }
 }
 
-.menu-link.current:hover:after {
+.menu__link.current:hover:after {
   background-color: var(--accent-color);
 }
 
